@@ -23,7 +23,7 @@ public class TestDeleteRelease extends JFrame {
             animatedPanel.repaint();
         });
 
-        startButton = new JButton("Start");
+        startButton = new JButton("Start Changed");
         startButton.addActionListener(e -> timer.start());
 
         stopButton = new JButton("Stop");
